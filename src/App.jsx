@@ -12,7 +12,7 @@ function App() {
             <h2 className='mt-5 font-bold'>Annette Black</h2>
           </div>
           <div className='items-center'>
-            <a href='https://twitter.com'> <div className='rounded-lg  m-5  p-4 text-center links'> Twitter Link</div></a>
+            <a href='https://twitter.com'> <div className='rounded-lg mx-2 lg:mx-20 md:mx-10 p-4 text-center links'> Twitter Link</div></a>
           </div>
         </div>
       

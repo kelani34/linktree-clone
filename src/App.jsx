@@ -13,21 +13,54 @@ function App() {
       id: 'twitter',
       text: 'Twiter Link',
       link: 'https://twitter.com'
-
-    }
+    },
+    {
+      id: 'btn_zuri',
+      text: 'Zuri Team',
+      link: 'https://training.zuri.team'
+    },
+    {
+      id: 'books',
+      text: 'Twiter Link',
+      link: 'https://books.zuri.team'
+    },
+    {
+      id: 'book__python',
+      text: 'Twiter Link',
+      link: 'https://books.zuri.team/python-for-beginners?ref_id=kelanitaiwo34'
+    },
+    {
+      id: 'pitch',
+      text: 'Twiter Link',
+      link: 'https://background.zuri.team'
+    },
+    {
+      id: 'book__design',
+      text: 'Twiter Link',
+      link: 'https://books.zuri.team/design-rules'
+    },
   ])
   return (
       <>
         <div>
-          <div className='m-10 mt-25 flex flex-col justify-center items-center'>
-            <img id='profile__img' src={profileImg}/>
-            <h2 className='mt-5 font-bold'>Annette Black</h2>
+            <div className='m-10 mt-25 flex flex-col justify-center items-center'>
+              <img id='profile__img' src={profileImg}/>
+              <h2 className='mt-5 font-bold'>Annette Black</h2>
+            </div>
+            { link.map((link) => {
+              return (
+                <Links 
+                id={link.id}
+                text= {link.text}
+                link={link.link}
+                />
+              )
+            }) 
+          }
+          <div className='flex mt-4 justify-center space-x-6'>
+            <img src={slackIcon} />
+            <img src={githubIcon} />
           </div>
-          <Links />
-        </div>
-      <div className='flex mt-4 justify-center space-x-6'>
-        <img src={slackIcon} />
-        <img src={githubIcon} />
       </div>
       <Footer />
       </>

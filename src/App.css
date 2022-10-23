@@ -1,11 +1,14 @@
 body{
   background-color:#ffffff;
+  /* width: 90%; */
+  /* margin: auto !important; */
 }
 
 .links{
   background-color: #EAECF0;
   margin-left: 144px !important;
   margin-right: 144px !important;
+  /* width: 80%; */
 }
 @media only screen and (max-width: 900px){
   .links{
@@ -21,6 +24,9 @@ body{
     height: 200px;
     font-size:14px;
     margin-bottom: 40px;
+    /* width: 80%; */
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
 }
 @media only screen and (max-width: 425px){
@@ -36,12 +42,16 @@ body{
     align-content: space-between;
     height: 200px;
     font-size:14px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 }
 
 .footer{
   justify-content: space-between;
-  margin-left: 80 !important;
-  margin-right: 80 !important;
+  margin-left: 80px !important;
+  margin-right: 80px !important;
   margin-bottom: 48px;
+  margin-top: 20px;
+
 }

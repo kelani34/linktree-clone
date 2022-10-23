@@ -21,7 +21,7 @@ function App() {
     },
     {
       id: 'books',
-      text: 'Twiter Link',
+      text: 'Books',
       link: 'https://books.zuri.team'
     },
     {
@@ -31,12 +31,12 @@ function App() {
     },
     {
       id: 'pitch',
-      text: 'Twiter Link',
+      text: 'Pitch',
       link: 'https://background.zuri.team'
     },
     {
       id: 'book__design',
-      text: 'Twiter Link',
+      text: '',
       link: 'https://books.zuri.team/design-rules'
     },
   ])

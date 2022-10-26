@@ -12,7 +12,7 @@ function App() {
     {
       id: 'twitter',
       text: 'Twiter Link',
-      link: 'https://twitter.com'
+      link: 'https://twitter.com/kelanicodes'
     },
     {
       id: 'btn_zuri',
@@ -45,7 +45,7 @@ function App() {
         <div>
             <div className='m-10 mt-25 flex flex-col justify-center items-center'>
               <img id='profile__img' src={profileImg}/>
-              <h2 className='mt-5 font-bold'>Annette Black</h2>
+              <h2 className='mt-5 font-bold'>Taiwo Shina-Kelani</h2>
             </div>
             { link.map((link) => {
               return (

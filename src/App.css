@@ -10,6 +10,9 @@ body{
   margin-right: 144px !important;
   /* width: 80%; */
 }
+.links:hover{
+  background-color:#D0D5DD;
+}
 @media only screen and (max-width: 900px){
   .links{
     margin-left: 30px !important;
@@ -46,12 +49,15 @@ body{
     margin-right: 10px !important;
   }
 }
+hr{
+  margin-left: 80px !important;
+  margin-right: 80px !important;
+  margin-top: 40px !important;
+}
 
 .footer{
   justify-content: space-between;
   margin-left: 80px !important;
   margin-right: 80px !important;
-  margin-bottom: 48px;
-  margin-top: 20px;
 
 }

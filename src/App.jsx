@@ -21,7 +21,7 @@ function App() {
     },
     {
       id: 'slack',
-      text: 'Taiwo Shina-kelani',
+      text: 'kelanitaiwo34',
       display: 'hidden',
       link: 'https://twitter.com/kelanicodes'
     },
@@ -38,7 +38,7 @@ function App() {
     },
     {
       id: 'book__python',
-      text: 'Python books for beginners',
+      text: 'Read Python books for beginners',
       display: 'block',
       link: 'https://books.zuri.team/python-for-beginners?ref_id=kehlani'
     },
@@ -85,8 +85,8 @@ function App() {
           }) 
         }
         <div className='flex mt-4 justify-center space-x-6'>
-          <a><img src={slackIcon} /></a>
-          <a><img src={githubIcon} /></a>
+          <a href='https://github.com/kelani34'><img src={slackIcon} /></a>
+          <a href='https://hng9.slack.com/'><img src={githubIcon} /></a>
         </div>
     </div>
     <Footer />

@@ -3,7 +3,12 @@ body{
   /* width: 90%; */
   /* margin: auto !important; */
 }
-
+.profile-img{
+  border-radius: 100%;
+  height: 88px;
+  width: 88px;
+  background-size: contain;
+}
 .links{
   background-color: #EAECF0;
   margin-left: 144px !important;
@@ -13,6 +18,16 @@ body{
 .links:hover{
   background-color:#D0D5DD;
 }
+.top{
+  width: 200px;
+}
+
+@media only screen and (min-width: 900px){
+  .menu-icon{
+    display:none;
+  }
+}
+
 @media only screen and (max-width: 900px){
   .links{
     margin-left: 30px !important;
@@ -31,6 +46,14 @@ body{
     margin-left: 0px !important;
     margin-right: 0px !important;
   }
+  .share-button{
+    display: none;
+  }
+  .menu-icon{
+    display:block;
+    right: 0px;
+    top: 0px;
+  }
 }
 @media only screen and (max-width: 425px){
   .links{
@@ -48,6 +71,14 @@ body{
     margin-left: 10px !important;
     margin-right: 10px !important;
   }
+  .share-button{
+    display: none;
+  }
+  .menu-icon{
+    display:block;
+    right: 0px;
+    top: 0px;
+  }
 }
 hr{
   margin-left: 80px !important;
@@ -60,4 +91,39 @@ hr{
   margin-left: 80px !important;
   margin-right: 80px !important;
 
+}
+.share-button{
+  right: 200px ;
+  bottom: 120px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  right: 160px;
+  top: 18px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+#slack{
+  display:none;
 }

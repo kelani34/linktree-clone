@@ -15,7 +15,7 @@ function App() {
   const [link,  setLink] = useState([
     {
       id: 'twitter',
-      text: 'Twiter Link',
+      text: 'Twiter',
       display: 'block',
       link: 'https://twitter.com/kelanicodes'
     },
@@ -32,25 +32,25 @@ function App() {
     },
     {
       id: 'books',
-      text: 'Books',
+      text: 'Checkout really cool books you\'ll love😍',
       display: 'block',
       link: 'https://books.zuri.team'
     },
     {
       id: 'book__python',
-      text: 'Twiter Link',
+      text: 'Python books for beginners',
       display: 'block',
-      link: 'https://books.zuri.team/python-for-beginners?ref_id=kelanitaiwo34'
+      link: 'https://books.zuri.team/python-for-beginners?ref_id=kehlani'
     },
     {
       id: 'pitch',
-      text: 'Pitch',
+      text: 'Check out really cool tech talents',
       display: 'block',
       link: 'https://background.zuri.team'
     },
     {
       id: 'book__design',
-      text: 'Design books',
+      text: 'Designer? Checkout these design guide book from Zuri Team',
       display: 'block',
       link: 'https://books.zuri.team/design-rules'
     },

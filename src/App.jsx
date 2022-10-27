@@ -65,7 +65,7 @@ function App() {
             <h2 className='mt-5 font-bold'>Taiwo Shina-Kelani</h2>
             <div class="tooltip">
               <img src={shareIcon} className='absolute share-button'/>
-              <TwitterShareButton url={"Checkout kehlani on https://linktr-ee.netlify.app"} className='absolute share-button opacity-0 twitter'>
+              <TwitterShareButton url={"Checkout kehlani on https://kelani-linktr-ee.netlify.app"} className='absolute share-button opacity-0 twitter'>
                   <TwitterIcon size={32} round={true} />
               </TwitterShareButton>
               <span className="tooltiptext">Share button</span>
